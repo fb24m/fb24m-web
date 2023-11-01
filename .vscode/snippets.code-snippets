@@ -1,0 +1,7 @@
+{
+  "Print to console": {
+    "scope": "scss",
+    "prefix": "breakpoints",
+    "body": "@use \"../../scss/breakpoints.scss\";"
+  }
+}

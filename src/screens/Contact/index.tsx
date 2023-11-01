@@ -26,7 +26,7 @@ export const Contact = (): React.ReactElement => {
 			</MarkedList>
 			<Card size='big'>
 				<Title3 className={styles.title}>Обратная связь</Title3>
-				<ContactForm buttonsJustify={Alignment.end} />
+				<ContactForm buttonsJustify={Alignment.stretch} />
 			</Card>
 			<div className={styles.block}>
 				<Image src="home/contact.png" alt="" />

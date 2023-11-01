@@ -24,27 +24,22 @@
 	.header {
 		padding: 10px 0;
 
-		.button {
-			padding: 6px 4px !important;
+		.button.shrink {
+			padding: 6px 8px !important;
 
 			&:not(.icon-mobile) {
 				width: 30px;
 				height: 30px;
 			}
 
-			@media (max-width: breakpoints.$mobile) {
+			@media (max-width: breakpoints.$tablet) {
 				width: 30px;
 				height: 30px;
+				padding: 8px;
 			}
 
 			i {
 				font-size: 18px;
-			}
-
-			&.icon-mobile {
-				i {
-					transform: translateX(1px);
-				}
 			}
 		}
 	}

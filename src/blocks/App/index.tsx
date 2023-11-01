@@ -1,7 +1,6 @@
 import { useContext, ReactElement, useEffect } from 'react';
 
 import { ITheme } from '@fb24m/ui/interfaces/Theme';
-import { ThemeContext } from '@fb24m/ui/components/ThemeProvider';
 import { observer } from '@fb24m/ui/components/ObserverProvider';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -16,15 +15,14 @@ import { PetPage } from '../../pages/PetPage';
 import { Pet } from '../../pages/Pet';
 
 export const App = (): ReactElement => {
-	const theme = useContext<ITheme>(ThemeContext);
 	const settings = useContext(SettingsContext);
 
-	const keys = Object.keys(theme);
-	const values = Object.values(theme);
+	// const keys = Object.keys(theme);
+	// const values = Object.values(theme);
 
-	keys.forEach((key, index) => {
-		document.documentElement.style.setProperty(`--${key}`, values[index]);
-	});
+	// keys.forEach((key, index) => {
+	// 	document.documentElement.style.setProperty(`--${key}`, values[index]);
+	// });
 
 	useEffect(() => {
 		const observedElements = document.querySelectorAll('.observe');
@@ -44,7 +42,7 @@ export const App = (): ReactElement => {
 				<Routes>
 					<Route path='/' Component={Home} />
 					<Route path='/blog' Component={Blog} />
-					<Route path='/posts/:slug' Component={PostCard} />
+					<Route path='/blog/:slug' Component={PostCard} />
 					<Route path='/pet/:page' Component={PetPage} />
 					<Route path='/pet' Component={Pet} />
 					<Route path='/*' Component={NotFoundError} />

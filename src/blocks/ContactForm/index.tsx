@@ -5,7 +5,7 @@ import { SubmitHandler, useForm } from 'react-hook-form';
 import { PopupFooter } from '@fb24m/ui/components/PopupFooter';
 import { PopupBody } from '@fb24m/ui/components/PopupBody';
 import { Popup } from '@fb24m/ui/components/Popup';
-import { Title3, Alignment, Box, Button, Icon, Input } from '@fb24m/ui/components/';
+import { Title3, Alignment, Box, Button, Icon, Input } from '@fb24m/ui/components';
 
 interface ContactFormInputs {
 	name: string

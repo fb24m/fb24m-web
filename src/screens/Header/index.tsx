@@ -52,17 +52,17 @@ export const Header = (): React.ReactElement => {
 						<li className={`observe ${styles.item}`}><Link href="/portfolio">Портфолио</Link></li>
 						<li className={`observe ${styles.item}`}><Link href="/contact">Связаться</Link></li>
 						<li className={`observe ${styles.item}`}><Link href="/pet">Пет-проекты</Link></li>
-						<li className={`observe ${styles.item}`}><Button appearance='Link' onClick={toggleWhatsNewPopup}>Что нового</Button></li>
+						<li className={`observe ${styles.item}`}><Button appearance='Link' onClick={() => toggleWhatsNewPopup()}>Что нового</Button></li>
 					</ul>
 					<Box align={Alignment.end} justify={Alignment.end}>
-						<Button onClick={toggleContactPopup}
-							className={`observe icon-mobile ${styles.button} ${styles.iconMobile}`}
+						<Button onClick={() => toggleContactPopup()}
+							className={`shrink observe icon-mobile ${styles.button} ${styles.iconMobile}`}
 							icon={<Icon name='phone_enabled' />}
 							as='button'
 							appearance='Primary'><span>Связаться</span></Button>
 						<Button
 							onClick={toggleTheme}
-							className={`observe ${styles.button} ${styles.iconOnly}`}
+							className={`shrink observe ${styles.button} ${styles.iconOnly}`}
 							icon={<Icon name={`${getOppositeTheme()}_mode`} />}
 							as='button'
 							appearance='Secondary'> </Button>
@@ -71,7 +71,7 @@ export const Header = (): React.ReactElement => {
 			</header>
 
 			<ContactForm bind={contactPopup} as='popup' buttonsJustify={Alignment.end}
-				buttons={<Button icon={<Icon name='cancel' />} appearance='Secondary' onClick={toggleContactPopup}>Закрыть</Button>} />
+				buttons={<Button icon={<Icon name='cancel' />} appearance='Secondary' onClick={() => toggleContactPopup()}>Закрыть</Button>} />
 			<WhatsNewPopup togglePopup={toggleWhatsNewPopup} bind={whatsNewPopup} />
 		</>
 	);

@@ -12,6 +12,15 @@
 
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: transparent;
+
+  --backgroundColor: #292929;
+  --backgroundMicaColor: #29292990;
+  --foregroundColor: #fff;
+  --mainColor: #B22222;
+  --hoverColor: #C63636;
+  --activeColor: #9E0E0E;
+
+  color: var(--foregroundColor);
 }
 
 button {
@@ -87,7 +96,7 @@ ul {
 
 ::-webkit-scrollbar-thumb {
   background-color: #202020;
-  border: var(--backgroundColor) 5px solid;
+  border: var(--backgroundColor) 4px solid;
   border-radius: 20px;
 
 
@@ -96,18 +105,20 @@ ul {
   }
 }
 
-ul {
-  display: flex;
-  flex-direction: column;
-  gap: .4em;
-
-  li {
+.eval {
+  ul {
     display: flex;
-    gap: 8px;
+    flex-direction: column;
+    gap: .4em;
 
-    &::before {
-      content: '·';
-      font-weight: 700;
+    li {
+      display: flex;
+      gap: 8px;
+
+      &::before {
+        content: '·';
+        font-weight: 700;
+      }
     }
   }
 }

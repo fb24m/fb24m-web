@@ -1,3 +1,5 @@
+@use "../../scss/breakpoints.scss";
+
 .form {
 	display: flex;
 	flex-direction: column;
@@ -5,17 +7,22 @@
 }
 
 .container {
-	display: flex;
-	justify-content: space-between;
-	gap: 30px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+
+	gap: 24px;
 	align-items: center;
 
-	@media (max-width: 900px) {
-		flex-wrap: wrap;
+	@media (max-width: breakpoints.$tablet-l) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media (max-width: breakpoints.$tablet) {
+		grid-template-columns: 1fr;
 	}
 
 	&>* {
-		flex-basis: 40%;
+		flex-basis: 33%;
 		justify-content: center;
 
 		&:first-child {
