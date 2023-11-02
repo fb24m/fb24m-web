@@ -3,7 +3,7 @@ import React from 'react';
 
 import { WordpressService } from '../../services/Wordpress';
 
-import { Sidebar } from '../../screens/Sidebar';
+import { Sidebar } from '../../components/screens/Sidebar';
 import { Post } from './Post';
 import { ErrorHandler } from '@fb24m/ui/components';
 

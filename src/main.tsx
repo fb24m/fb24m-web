@@ -4,7 +4,7 @@ import './index.scss';
 
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
-import { App } from './blocks/App';
+import { App } from '@/components/base/App';
 import { SettingsProvider } from './contexts/SettingsProvider';
 
 // import { ThemeProvider } from '@fb24m/ui/components/ThemeProvider';
@@ -19,11 +19,9 @@ const root: ReactDOM.Root = ReactDOM.createRoot(document.getElementById('root')!
 root.render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
-      {/* <ThemeProvider theme={isLightTheme() ? fb24mLightTheme : fb24mDarkTheme}> */}
       <SettingsProvider>
         <App />
       </SettingsProvider>
-      {/* </ThemeProvider> */}
     </QueryClientProvider>
   </React.StrictMode>
 );

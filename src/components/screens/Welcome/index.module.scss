@@ -1,0 +1,78 @@
+.wrapper {
+	margin-top: -106px;
+	position: relative;
+
+
+	&::before {
+
+		content: '';
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+
+		background: {
+			image: url('img/hand-keyboard.jpg');
+			repeat: no-repeat;
+			size: 100% 100%;
+		}
+
+		top: 0;
+
+		z-index: -1;
+
+	}
+
+	&::after {
+		content: '';
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(#000, .6);
+		top: 0;
+
+		z-index: -1;
+	}
+
+	height: 100vh;
+}
+
+.subtitle {
+	font-weight: 400;
+}
+
+.title {
+	font-weight: 100;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	max-width: 50%;
+	gap: 8px;
+}
+
+.description {
+	margin-bottom: 12px;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.transition {
+	position: absolute;
+	width: 100%;
+	height: 72px;
+	left: 0;
+	bottom: 0;
+	background: linear-gradient(#00000000, var(--backgroundColor));
+}

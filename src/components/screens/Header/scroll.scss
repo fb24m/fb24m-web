@@ -1,0 +1,47 @@
+@use '@/scss/breakpoints';
+
+.logoBlock a {
+	transition: font-size .3s;
+}
+
+.headerLogo {
+	transition: width .3s, height .3s;
+}
+
+.header .button {
+	transition: padding .3s, width .3s, height .3s;
+
+	i {
+		transition: font-size .3s;
+	}
+}
+
+.header {
+	transition: padding .3s, background-color .3s;
+}
+
+.scroll {
+	.header {
+		padding: 10px 0;
+		background: var(--backgroundColor);
+
+		.button.shrink {
+			padding: 6px 8px !important;
+
+			&:not(.icon-mobile) {
+				width: 30px;
+				height: 30px;
+			}
+
+			@media (max-width: breakpoints.$tablet) {
+				width: 30px;
+				height: 30px;
+				padding: 8px;
+			}
+
+			i {
+				font-size: 18px;
+			}
+		}
+	}
+}

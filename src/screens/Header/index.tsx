@@ -4,11 +4,11 @@ import React from 'react';
 
 import { Link, Button, Icon, Image, useModal, Alignment, Box } from '@fb24m/ui/components';
 import { useState, useContext } from 'react';
-import { SettingsContext } from '../../contexts/SettingsProvider';
-import { ContactForm } from '../../blocks/ContactForm/index';
-import { getOppositeTheme } from '../../functions/getOppositeTheme';
+import { SettingsContext } from '@/contexts/SettingsProvider';
+import { ContactForm } from '@/components/blocks/ContactForm';
+import { getOppositeTheme } from '@/functions/getOppositeTheme';
 
-import { WhatsNewPopup } from '../../popups/WhatsNewPopup';
+import { WhatsNewPopup } from '@/components/popups/WhatsNewPopup';
 
 const toggleState = <T,>(value: T, setter: Function, newValue: T) => {
 	if (value === '') setter(newValue);
