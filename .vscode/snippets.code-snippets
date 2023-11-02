@@ -3,5 +3,10 @@
     "scope": "scss",
     "prefix": "breakpoints",
     "body": "@use \"../../scss/breakpoints.scss\";"
+  },
+  "@media max-width: (breakpoints.$tablet) {|}": {
+    "scope": "scss",
+    "prefix": "mmt",
+    "body": "@media (max-width: breakpoints.\\$tablet) {$1}"
   }
 }

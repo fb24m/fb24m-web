@@ -19,7 +19,7 @@ export const About = (): React.ReactElement => {
 						<AboutCard className={styles.card} title='Более 50' description='страниц за 2 месяца' />
 					</div>
 					<div className={`buttons ${styles.buttons}`}>
-						<Button className={`observe`} icon={<Icon name='phone_enabled' />} as='a' appearance='Primary'>Связаться</Button>
+						<Button className={`observe`} icon={<Icon name='phone_enabled' />} href='#contact' as='a' appearance='Primary'>Связаться</Button>
 						<Button className={`observe`} icon={<Icon name='laptop' />} href='#portfolio' as='a' appearance='Secondary'>В портфолио</Button>
 					</div>
 				</div>

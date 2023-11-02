@@ -1,0 +1,40 @@
+@use "@/scss/breakpoints.scss";
+
+.table {
+	border-collapse: collapse;
+	position: relative;
+}
+
+.tableWrapper {
+	overflow-x: auto;
+	max-width: 100%;
+
+	width: 100%;
+}
+
+.cell {
+	font-family: 'Roboto', sans-serif;
+	padding-block: 16px;
+	padding-right: 24px;
+	border-bottom: rgba(#777, .5) 1px solid;
+	white-space: nowrap;
+	font-weight: 400;
+
+	&:first-child {
+		padding-left: 24px;
+	}
+}
+
+.cellContainer {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.description {
+	max-width: 50%;
+
+	@media (max-width: breakpoints.$tablet) {
+		max-width: 100%;
+	}
+}

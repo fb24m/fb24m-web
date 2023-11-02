@@ -10,8 +10,8 @@ import { Blog } from '@/pages/Blog';
 import { PostCard } from '@/pages/PostCard';
 import { NotFoundError } from '@/pages/Error';
 import { SettingsContext } from '@/contexts/SettingsProvider';
-import { PetPage } from '@/pages/PetPage';
 import { Pet } from '@/pages/Pet';
+import { ContactPage } from '@/pages/Contact';
 
 export const App = (): ReactElement => {
 	const settings = useContext(SettingsContext);
@@ -42,8 +42,8 @@ export const App = (): ReactElement => {
 					<Route path='/' Component={Home} />
 					<Route path='/blog' Component={Blog} />
 					<Route path='/blog/:slug' Component={PostCard} />
-					<Route path='/pet/:page' Component={PetPage} />
 					<Route path='/pet' Component={Pet} />
+					<Route path='/contact' Component={ContactPage} />
 					<Route path='/*' Component={NotFoundError} />
 				</Routes>
 			</div>

@@ -24,11 +24,11 @@ export const WhatsNewPopup = (props: PopupProps): React.ReactElement => {
 				<Box justify={Alignment.center}>
 					<Title3>Что нового</Title3>
 				</Box>
-				<Box direction="column" dangerouslySetInnerHTML={{ __html: data.data[0].content.rendered }}></Box>
+				<Box className="eval" direction="column" dangerouslySetInnerHTML={{ __html: data.data[0].content.rendered }}></Box>
 			</PopupBody>
 			<PopupFooter>
 				<Box justify={Alignment.end}>
-					<Button onClick={() => props.togglePopup()} icon={<Icon name='cancel' />} appearance='Secondary'>Закрыть</Button>
+					<Button onClick={() => props.togglePopup()} icon={<Icon name="cancel" />} appearance='Secondary'>Закрыть</Button>
 				</Box>
 			</PopupFooter>
 		</Popup >
