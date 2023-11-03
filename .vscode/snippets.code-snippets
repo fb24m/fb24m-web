@@ -2,11 +2,40 @@
   "Print to console": {
     "scope": "scss",
     "prefix": "breakpoints",
-    "body": "@use \"../../scss/breakpoints.scss\";"
+    "body": "@use \"@/scss/breakpoints.scss\";"
   },
   "@media max-width: (breakpoints.$tablet) {|}": {
     "scope": "scss",
-    "prefix": "mmt",
+    "prefix": "mmbt",
     "body": "@media (max-width: breakpoints.\\$tablet) {$1}"
+  },
+  "Page Component": {
+    "prefix": "!page",
+    "body": [
+      "import { ReactNode } from 'react';",
+      "",
+      "export const ${1:Name}Page = (): ReactNode => (",
+      "\t<>",
+      "\t\t$2",
+      "\t</>"
+      ");"
+    ]
+  }
+  ,
+  "Block Component": {
+    "prefix": "!page",
+    "body": [
+      "import { ReactNode } from 'react';",
+      "",
+      "export const ${1:Name}Block = (): ReactNode => (",
+      "\t<>",
+      "\t\t$2",
+      "\t</>"
+      ");"
+    ]
+  },
+  "styles": {
+    "prefix": "styles",
+    "body": "import styles from './index.module.scss';"
   }
 }

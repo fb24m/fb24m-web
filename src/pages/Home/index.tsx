@@ -6,6 +6,7 @@ import { Contact } from '@/components/screens/Contact';
 import { Portfolio } from '@/components/screens/Portfolio';
 
 import { Page } from '@/components/base/Page';
+import { ReviewsBlock } from '@/components/screens/Reviews';
 
 export const Home = (): JSX.Element => {
 	return (
@@ -13,6 +14,7 @@ export const Home = (): JSX.Element => {
 			<Welcome />
 			<About />
 			<Portfolio />
+			<ReviewsBlock />
 			<Contact />
 		</Page>
 	);

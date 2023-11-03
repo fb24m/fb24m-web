@@ -1,5 +1,5 @@
+import { ReactNode } from 'react';
 import styles from './index.module.scss';
-import React from 'react';
 
 import { Body1, Card, Icon, Title4 } from '@fb24m/ui/components';
 
@@ -10,7 +10,7 @@ export interface PetCardProps {
 	icon: string
 }
 
-export const PetCard = (props: PetCardProps): React.ReactElement => (
+export const PetCard = (props: PetCardProps): ReactNode => (
 	<a href={props.url}>
 		<Card className={styles.wrapper} size="normal">
 			<Icon name={props.icon} size='big' />
@@ -20,5 +20,4 @@ export const PetCard = (props: PetCardProps): React.ReactElement => (
 			</div>
 		</Card>
 	</a>
-)
-
+);

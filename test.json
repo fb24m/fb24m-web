@@ -1,116 +1,140 @@
-[
-	{
-		"id": 170,
-		"date": "2023-10-01T22:05:00",
-		"date_gmt": "2023-10-01T19:05:00",
-		"guid": {
-			"rendered": "https:\/\/www.fb24m.ru\/tms\/?p=170"
+{
+	"id": 8,
+	"date": "2023-10-03T22:05:21",
+	"date_gmt": "2023-10-03T19:05:21",
+	"guid": {
+		"rendered": "https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon.png"
+	},
+	"modified": "2023-11-03T11:36:55",
+	"modified_gmt": "2023-11-03T08:36:55",
+	"slug": "cropped-favicon-png",
+	"status": "inherit",
+	"type": "attachment",
+	"link": "https:\/\/www.fb24m.ru\/fb24m\/reviews\/3-%d0%bd%d0%be%d1%8f%d0%b1%d1%80%d1%8f-2023\/cropped-favicon-png\/",
+	"title": {
+		"rendered": "cropped-favicon.png"
+	},
+	"author": 1,
+	"comment_status": "open",
+	"ping_status": "closed",
+	"template": "",
+	"meta": [],
+	"acf": [],
+	"description": {
+		"rendered": "<p class=\"attachment\"><a href='https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon.png'><img loading=\"lazy\" width=\"300\" height=\"300\" src=\"https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon-300x300.png\" class=\"attachment-medium size-medium\" alt=\"\" decoding=\"async\" srcset=\"https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon-300x300.png 300w, https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon-150x150.png 150w, https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon-270x270.png 270w, https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon-192x192.png 192w, https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon-180x180.png 180w, https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon-32x32.png 32w, https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon.png 512w\" sizes=\"(max-width: 300px) 100vw, 300px\" \/><\/a><\/p>\n<p>https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon.png<\/p>\n"
+	},
+	"caption": {
+		"rendered": "<p>https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon.png<\/p>\n"
+	},
+	"alt_text": "",
+	"media_type": "image",
+	"mime_type": "image\/png",
+	"media_details": {
+		"width": 512,
+		"height": 512,
+		"file": "2023\/10\/cropped-favicon.png",
+		"filesize": 79472,
+		"sizes": {
+			"medium": {
+				"file": "cropped-favicon-300x300.png",
+				"width": 300,
+				"height": 300,
+				"filesize": 33504,
+				"mime_type": "image\/png",
+				"source_url": "https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon-300x300.png"
+			},
+			"thumbnail": {
+				"file": "cropped-favicon-150x150.png",
+				"width": 150,
+				"height": 150,
+				"filesize": 13307,
+				"mime_type": "image\/png",
+				"source_url": "https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon-150x150.png"
+			},
+			"site_icon-270": {
+				"file": "cropped-favicon-270x270.png",
+				"width": 270,
+				"height": 270,
+				"filesize": 28994,
+				"mime_type": "image\/png",
+				"source_url": "https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon-270x270.png"
+			},
+			"site_icon-192": {
+				"file": "cropped-favicon-192x192.png",
+				"width": 192,
+				"height": 192,
+				"filesize": 18079,
+				"mime_type": "image\/png",
+				"source_url": "https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon-192x192.png"
+			},
+			"site_icon-180": {
+				"file": "cropped-favicon-180x180.png",
+				"width": 180,
+				"height": 180,
+				"filesize": 16524,
+				"mime_type": "image\/png",
+				"source_url": "https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon-180x180.png"
+			},
+			"site_icon-32": {
+				"file": "cropped-favicon-32x32.png",
+				"width": 32,
+				"height": 32,
+				"filesize": 2236,
+				"mime_type": "image\/png",
+				"source_url": "https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon-32x32.png"
+			},
+			"full": {
+				"file": "cropped-favicon.png",
+				"width": 512,
+				"height": 512,
+				"mime_type": "image\/png",
+				"source_url": "https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon.png"
+			}
 		},
-		"modified": "2023-10-01T22:08:23",
-		"modified_gmt": "2023-10-01T19:08:23",
-		"slug": "%d0%be%d0%b1%d0%bd%d0%be%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81%d0%b0%d0%b9%d1%82%d0%b0-t3",
-		"status": "publish",
-		"type": "post",
-		"link": "https:\/\/www.fb24m.ru\/tms\/%d0%be%d0%b1%d0%bd%d0%be%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81%d0%b0%d0%b9%d1%82%d0%b0-t3\/",
-		"title": {
-			"rendered": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0441\u0430\u0439\u0442\u0430 T3"
-		},
-		"content": {
-			"rendered": "\n<h2 class=\"wp-block-heading\">\u041e\u0431\u0449\u0438\u0435 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043d\u0430 \u0441\u0430\u0439\u0442\u0435<\/h2>\n\n\n\n<ul>\n<li>\u0412 \u0448\u0430\u043f\u043a\u0435 \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d IP-\u0430\u0434\u0440\u0435\u0441 \u0441\u0435\u0440\u0432\u0435\u0440\u0430<\/li>\n\n\n\n<li>\u041b\u043e\u0433\u043e\u0442\u0438\u043f \u0442\u0435\u043f\u0435\u0440\u044c \u0432\u0435\u0434\u0435\u0442 \u043d\u0430 \u0433\u043b\u0430\u0432\u043d\u0443\u044e<\/li>\n\n\n\n<li>\u0412 \u0448\u0430\u043f\u043a\u0435 \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0430\u044e\u0442\u0441\u044f \u0442\u043e\u043b\u044c\u043a\u043e \u043a\u0430\u0441\u0442\u043e\u043c\u043d\u044b\u0435 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b<\/li>\n<\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430\u0445<\/h2>\n\n\n\n<ul>\n<li>\u0422\u0435\u043f\u0435\u0440\u044c \u043c\u043e\u0436\u043d\u043e \u0441\u043e\u0437\u0434\u0430\u0432\u0430\u0442\u044c \u043a\u043d\u043e\u043f\u043a\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0441\u043a\u0440\u043e\u043b\u044f\u0442 \u043a \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u043e\u043c\u0443 \u0431\u043b\u043e\u043a\u0443<\/li>\n<\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u0432 \u043f\u043e\u0441\u0442\u0430\u0445<\/h2>\n\n\n\n<ul>\n<li>\u0414\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u044b \u0442\u0435\u0433\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0442 \u043a\u0440\u0430\u0442\u043a\u043e \u0443\u043a\u0430\u0437\u0430\u0442\u044c \u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0438 \u043f\u043e\u0441\u0442\u0430<\/li>\n\n\n\n<li>\u0422\u0435\u0433\u0438 \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0430\u044e\u0442\u0441\u044f \u0432 \u0441\u0430\u043c\u043e\u043c \u043f\u043e\u0441\u0442\u0435, \u0430 \u0442\u0430\u043a\u0436\u0435 \u043d\u0430 \u0435\u0433\u043e \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0435 \u0432 \u043a\u0430\u0442\u0430\u043b\u043e\u0433\u0435 \u0438 \u043f\u043e\u0434 \u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u043f\u043e\u0441\u0442\u0430\u043c\u0438<\/li>\n\n\n\n<li>\u0414\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u043e 2 \u043d\u043e\u0432\u044b\u0445 \u0442\u0438\u043f\u0430 \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f, \u0432\u044b\u0431\u0438\u0440\u0430\u044e\u0442\u0441\u044f \u0434\u043e \u0438\u043b\u0438 \u043f\u043e\u0441\u043b\u0435 \u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0438<\/li>\n\n\n\n<li>\u041f\u0440\u0438 \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0435 \u043f\u043e\u0441\u0442\u0430 \u0442\u0435\u043f\u0435\u0440\u044c \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442\u0441\u044f 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043f\u043e\u0441\u0442\u0430 \u0432\u043e \u0432\u0441\u0435\u0445 \u0440\u0443\u0431\u0440\u0438\u043a\u0430\u0445<\/li>\n<\/ul>\n\n\n\n<h3 class=\"wp-block-heading\">\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0442\u0438\u043f\u043e\u0432 \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u043f\u043e\u0441\u0442\u0430:<\/h3>\n\n\n\n<ul>\n<li>\u0414\u043b\u044f \u0441\u0442\u0430\u0442\u044c\u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0442\u0438\u043f &#171;\u0411\u043e\u043b\u044c\u0448\u0430\u044f \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0430 \u0441 \u043d\u0430\u043b\u043e\u0436\u0435\u043d\u0438\u0435\u043c&#187;<\/li>\n\n\n\n<li>\u0414\u043b\u044f \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0442\u0438\u043f &#171;\u0411\u043e\u043b\u044c\u0448\u0430\u044f \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0430 \u0441 \u043d\u0430\u043b\u043e\u0436\u0435\u043d\u0438\u0435\u043c&#187; \u043b\u0438\u0431\u043e &#171;\u041c\u0430\u043b\u0435\u043d\u044c\u043a\u0430\u044f \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0430&#187;<\/li>\n\n\n\n<li>\u0414\u043b\u044f \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0441\u0442\u0430\u0442\u0435\u0439 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0442\u0438\u043f &#171;\u0411\u0435\u0437 \u0444\u043e\u043d\u0430&#187; \u0438 \u043d\u0435 \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0439\u0442\u0435 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0443<\/li>\n<\/ul>\n",
-			"protected": false
-		},
-		"excerpt": {
-			"rendered": "<p>\u041e\u0431\u0449\u0438\u0435 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043d\u0430 \u0441\u0430\u0439\u0442\u0435 \u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430\u0445 \u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u0432 \u043f\u043e\u0441\u0442\u0430\u0445 \u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0442\u0438\u043f\u043e\u0432 \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u043f\u043e\u0441\u0442\u0430:<\/p>\n",
-			"protected": false
-		},
-		"author": 1,
-		"featured_media": 173,
-		"comment_status": "open",
-		"ping_status": "open",
-		"sticky": false,
-		"template": "",
-		"format": "standard",
-		"meta": {
-			"footnotes": ""
-		},
-		"categories": [
-			7
-		],
-		"tags": [],
-		"acf": {
-			"tags": "\u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f, \u0441\u0430\u0439\u0442, \u041c23",
-			"appearance": "1"
-		},
-		"_links": {
-			"self": [
-				{
-					"href": "https:\/\/www.fb24m.ru\/tms\/wp-json\/wp\/v2\/posts\/170"
-				}
-			],
-			"collection": [
-				{
-					"href": "https:\/\/www.fb24m.ru\/tms\/wp-json\/wp\/v2\/posts"
-				}
-			],
-			"about": [
-				{
-					"href": "https:\/\/www.fb24m.ru\/tms\/wp-json\/wp\/v2\/types\/post"
-				}
-			],
-			"author": [
-				{
-					"embeddable": true,
-					"href": "https:\/\/www.fb24m.ru\/tms\/wp-json\/wp\/v2\/users\/1"
-				}
-			],
-			"replies": [
-				{
-					"embeddable": true,
-					"href": "https:\/\/www.fb24m.ru\/tms\/wp-json\/wp\/v2\/comments?post=170"
-				}
-			],
-			"version-history": [
-				{
-					"count": 7,
-					"href": "https:\/\/www.fb24m.ru\/tms\/wp-json\/wp\/v2\/posts\/170\/revisions"
-				}
-			],
-			"predecessor-version": [
-				{
-					"id": 179,
-					"href": "https:\/\/www.fb24m.ru\/tms\/wp-json\/wp\/v2\/posts\/170\/revisions\/179"
-				}
-			],
-			"wp:featuredmedia": [
-				{
-					"embeddable": true,
-					"href": "https:\/\/www.fb24m.ru\/tms\/wp-json\/wp\/v2\/media\/173"
-				}
-			],
-			"wp:attachment": [
-				{
-					"href": "https:\/\/www.fb24m.ru\/tms\/wp-json\/wp\/v2\/media?parent=170"
-				}
-			],
-			"wp:term": [
-				{
-					"taxonomy": "category",
-					"embeddable": true,
-					"href": "https:\/\/www.fb24m.ru\/tms\/wp-json\/wp\/v2\/categories?post=170"
-				},
-				{
-					"taxonomy": "post_tag",
-					"embeddable": true,
-					"href": "https:\/\/www.fb24m.ru\/tms\/wp-json\/wp\/v2\/tags?post=170"
-				}
-			],
-			"curies": [
-				{
-					"name": "wp",
-					"href": "https:\/\/api.w.org\/{rel}",
-					"templated": true
-				}
-			]
+		"image_meta": {
+			"aperture": "0",
+			"credit": "",
+			"camera": "",
+			"caption": "",
+			"created_timestamp": "0",
+			"copyright": "",
+			"focal_length": "0",
+			"iso": "0",
+			"shutter_speed": "0",
+			"title": "",
+			"orientation": "0",
+			"keywords": []
 		}
+	},
+	"post": 61,
+	"source_url": "https:\/\/www.fb24m.ru\/fb24m\/wp-content\/uploads\/2023\/10\/cropped-favicon.png",
+	"_links": {
+		"self": [
+			{
+				"href": "https:\/\/www.fb24m.ru\/fb24m\/wp-json\/wp\/v2\/media\/8"
+			}
+		],
+		"collection": [
+			{
+				"href": "https:\/\/www.fb24m.ru\/fb24m\/wp-json\/wp\/v2\/media"
+			}
+		],
+		"about": [
+			{
+				"href": "https:\/\/www.fb24m.ru\/fb24m\/wp-json\/wp\/v2\/types\/attachment"
+			}
+		],
+		"author": [
+			{
+				"embeddable": true,
+				"href": "https:\/\/www.fb24m.ru\/fb24m\/wp-json\/wp\/v2\/users\/1"
+			}
+		],
+		"replies": [
+			{
+				"embeddable": true,
+				"href": "https:\/\/www.fb24m.ru\/fb24m\/wp-json\/wp\/v2\/comments?post=8"
+			}
+		]
 	}
-]
+}
