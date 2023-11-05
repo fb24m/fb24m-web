@@ -6,7 +6,7 @@
   },
   "@media max-width: (breakpoints.$tablet) {|}": {
     "scope": "scss",
-    "prefix": "mmbt",
+    "prefix": "mmt",
     "body": "@media (max-width: breakpoints.\\$tablet) {$1}"
   },
   "Page Component": {

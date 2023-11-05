@@ -3,6 +3,8 @@
 .table {
 	border-collapse: collapse;
 	position: relative;
+
+
 }
 
 .tableWrapper {
@@ -12,13 +14,19 @@
 	width: 100%;
 }
 
+.row {
+	@media (max-width: breakpoints.$tablet) {
+		// display: flex;
+		flex-direction: column;
+	}
+}
+
 .cell {
-	font-family: 'Roboto', sans-serif;
 	padding-block: 16px;
 	padding-right: 24px;
 	border-bottom: rgba(#777, .5) 1px solid;
-	white-space: nowrap;
-	font-weight: 400;
+
+	@media (max-width: breakpoints.$tablet) {}
 
 	&:first-child {
 		padding-left: 24px;
@@ -27,8 +35,13 @@
 
 .cellContainer {
 	display: flex;
-	align-items: center;
+	height: 100%;
+	align-items: flex-start;
+	justify-content: flex-start;
 	gap: 8px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	white-space: nowrap;
 }
 
 .description {
@@ -37,4 +50,8 @@
 	@media (max-width: breakpoints.$tablet) {
 		max-width: 100%;
 	}
+}
+
+.cellWrap {
+	white-space: wrap;
 }
